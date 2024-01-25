@@ -11,6 +11,8 @@ logger = logging.getLogger(__name__)
 _server = Flask(__name__)
 MODEL_CLASS = LabelStudioMLBase
 
+print('Label Studio ML API server initialized')
+
 
 def init_app(model_class):
     global MODEL_CLASS
